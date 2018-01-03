@@ -1,0 +1,22 @@
+ul {
+    --accent-color: purple;
+}
+
+ol {
+    --accent-color: rebeccapurple;
+}
+
+li {
+    background: var(--accent-color);
+}
+
+body {
+    background: green;
+}
+div {
+    background: white;
+    background-clip: padding-box;
+    border: 10px solid hsla(0, 0%, 100%, 0.5);
+    width: 150px;
+    height: 150px;
+}
