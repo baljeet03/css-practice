@@ -1,0 +1,18 @@
+/*Note: we can use box shadow for multiple border but can't use it for event handling*/
+.box-shadow-design {
+    /* x-axis offset, y-axis offset(basically shift from origin axis), blur value, spread value*/
+    /* inset keyword can be used alongside it if you want the shadow to be above background but below the content*/
+    box-shadow:  0 0 12px 30px #222222, 0 0 20px 50px hotpink;
+}
+
+.outline-design {
+    border: solid  10px black;
+    /* Outline with border can be use for two border but its not much useful*/
+    outline: solid 20px red;
+}
+
+.sizes {
+    background: green;
+    width: 300px;
+    height: 300px;
+}
